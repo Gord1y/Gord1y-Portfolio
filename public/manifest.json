@@ -1,0 +1,17 @@
+{
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "description": "Dania's Portfolio",
+  "name": "Dania's Portfolio",
+  "short_name": "Dania's Portfolio",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
