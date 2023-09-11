@@ -10,7 +10,7 @@ module.exports = [
   },
   {
     title: 'Portfolio website',
-    external: 'https://activedocks.top/portfolio/',
+    external: 'https://portfolio.activedocks.top/',
     github: 'https://github.com/Gord1y/MainPortfolio',
     descriptionHtml:
       'My old website portfolio, which I updated to a new version.',
@@ -18,7 +18,7 @@ module.exports = [
   },
   {
     title: 'Travel Website',
-    external: 'https://activedocks.top/travel/',
+    external: 'https://portfolio.activedocks.top/travel/',
     github: 'https://github.com/Gord1y/TravelWebSite',
     descriptionHtml: 'This is a website for a travel agency.',
     techs: ['Html', 'Css', 'JavaScript']
