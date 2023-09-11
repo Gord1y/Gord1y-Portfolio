@@ -48,9 +48,6 @@ const Projects = () => {
     <StyledProjectsSection>
       <div className='title-container' ref={revealTitle}>
         <h2>Other Projects</h2>
-        {/*   <Link href="/archive">
-          <a className="archive-link inline-link">View all projects</a>
-        </Link> */}
       </div>
       <TransitionGroup className='projects-grid'>
         {projectsToShow &&
@@ -89,7 +86,8 @@ const Projects = () => {
                         <div className='project-links'>
                           {github && (
                             <a
-                              onClick={() => handleClickProject(github)}
+                              href={github}
+                              target='_blank'
                               aria-label='GitHub Link'
                             >
                               <Icon name='GitHub' />
@@ -97,7 +95,8 @@ const Projects = () => {
                           )}
                           {external && (
                             <a
-                              onClick={() => handleClickProject(external)}
+                              href={external}
+                              target='_blank'
                               aria-label='External Link'
                             >
                               <Icon name='External' />
@@ -129,7 +128,7 @@ const Projects = () => {
             )
           })}
       </TransitionGroup>
-      {projects && projects.length > 6 && (
+      {projects && projects.length > 2 && (
         <button
           type='button'
           className='more-button'
