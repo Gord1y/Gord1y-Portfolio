@@ -5,7 +5,7 @@ module.exports = [
     cover: '/projects/activedocks.png',
     external: 'https://activedocks.fun/',
     descriptionHtml:
-      'My personal project that I work on in my spare time, on which I learned a lot and which develops with me. It have mobile and desktop versions, and more than 1000 users. I am constantly developing it and adding new features to it at my free time.',
+      'My personal startup project, which was a copy of the well-known Diia and developed and grew with me. I learned a lot with it and developed my personal technology stack. Initially, I had this Tech Stack: ReactJs, JavaScript, Scss, and a telegram bot that acted as a communication with the user to change data and other things. It have mobile and desktop versions, and more than 1000 users. I am constantly developing it and adding new features to it at my free time.',
     techs: ['NextJs', 'NestJs', 'Typescript']
   },
   {
@@ -17,12 +17,12 @@ module.exports = [
     techs: ['VueJs', 'React-Native', 'Typescript', 'ReactJs']
   },
   {
-    title: 'Manus',
-    cover: '/projects/manus.png',
-    github: 'https://github.com/Gord1y/Manus-front',
-    external: 'https://manus.activedocks.top/',
+    title: 'Katyas Space',
+    external: 'https://katyas.space/',
+    cover: '/projects/katyaspace.jpg',
+    github: 'https://github.com/Gord1y/katyasspace',
     descriptionHtml:
-      'My personal project for cooking recipes, which I made for my wife, and which I use myself. I am constantly developing it and adding new features to it at my free time. Also I am planning to make a mobile application for it in the future.',
-    techs: ['NextJs', 'NestJs', 'Typescript']
+      'This is a portfolio website for a english teacher. The website is built with Next.js and Tailwind CSS.',
+    techs: ['NextJs', 'TypeScript', 'TailWWindCss', 'Scss']
   }
 ]

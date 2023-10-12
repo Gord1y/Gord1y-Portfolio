@@ -1,20 +1,20 @@
 /* eslint-disable max-len */
 module.exports = [
   {
-    title: 'Katyas Space',
-    external: 'https://katyas.space/',
-    github: 'https://github.com/Gord1y/katyasspace',
-    descriptionHtml:
-      'This is a portfolio website for a english teacher. The website is built with Next.js and Tailwind CSS.',
-    techs: ['NextJs', 'TypeScript', 'TailWWindCss', 'Scss']
-  },
-  {
     title: 'Portfolio website',
     external: 'https://activedocks.top/portfolio/',
     github: 'https://github.com/Gord1y/MainPortfolio',
     descriptionHtml:
       'My old website portfolio, which I updated to a new version.',
     techs: ['Html', 'Css', 'JavaScript']
+  },
+  {
+    title: 'Manus',
+    github: 'https://github.com/Gord1y/Manus-front',
+    external: 'https://manus.activedocks.top/',
+    descriptionHtml:
+      'My personal project for cooking recipes, which I made for my wife, and which I use myself. I am constantly developing it and adding new features to it at my free time. Also I am planning to make a mobile application for it in the future.',
+    techs: ['NextJs', 'NestJs', 'Typescript']
   },
   {
     title: 'Travel Website',

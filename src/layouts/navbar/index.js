@@ -2,7 +2,6 @@ import { Menu } from '@components'
 import { navLinks } from '@config'
 import { useScrollDirection } from '@hooks'
 import { LOADER_DELAY } from '@lib/constants'
-import Link from 'next/link'
 import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
@@ -87,7 +86,7 @@ const Nav = ({ isHome }) => {
                   }}
                 >
                   <a
-                    href='/DanyloHordiienkoCV.pdf'
+                    href='/Danylo-Hordiienko-CV.pdf'
                     target='_blank'
                     className='resume-button'
                   >
